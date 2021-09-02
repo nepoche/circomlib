@@ -1,5 +1,5 @@
 const poseidon = require("./poseidon");
-const bigInt = require("snarkjs").bigInt;
+const bigInt = require("torn-snarkjs").bigInt;
 
 exports.hash0 = function (left, right) {
     return poseidon([left, right]);

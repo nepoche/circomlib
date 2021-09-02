@@ -1,5 +1,5 @@
 const chai = require("chai");
-const snarkjs = require("snarkjs");
+const snarkjs = require("torn-snarkjs");
 
 const smt = require("../src/smt.js");
 

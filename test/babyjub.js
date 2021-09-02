@@ -1,6 +1,6 @@
 const chai = require("chai");
 const path = require("path");
-const snarkjs = require("snarkjs");
+const snarkjs = require("torn-snarkjs");
 const compiler = require("circom");
 
 const createBlakeHash = require("blake-hash");
@@ -8,7 +8,7 @@ const eddsa = require("../src/eddsa.js");
 
 const assert = chai.assert;
 
-const bigInt = require("snarkjs").bigInt;
+const bigInt = require("torn-snarkjs").bigInt;
 
 describe("Baby Jub test", function () {
     let circuitAdd;

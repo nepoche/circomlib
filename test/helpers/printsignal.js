@@ -1,5 +1,5 @@
 
-const snarkjs = require("snarkjs");
+const snarkjs = require("torn-snarkjs");
 
 const bigInt = snarkjs.bigInt;
 

@@ -1,5 +1,5 @@
-const bn128 = require("snarkjs").bn128;
-const bigInt = require("snarkjs").bigInt;
+const bn128 = require("torn-snarkjs").bn128;
+const bigInt = require("torn-snarkjs").bigInt;
 
 exports.addPoint = addPoint;
 exports.mulPointEscalar = mulPointEscalar;

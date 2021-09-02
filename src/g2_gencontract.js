@@ -3,8 +3,8 @@
 //
 
 const Contract = require("./evmasm");
-const G2 = require("snarkjs").bn128.G2;
-const bigInt = require("snarkjs").bigInt;
+const G2 = require("torn-snarkjs").bn128.G2;
+const bigInt = require("torn-snarkjs").bigInt;
 
 
 function toHex256(a) {
